@@ -52,3 +52,22 @@ header nav ul li a {
     bottom: 0;
     right: 0;
 }
+
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.about-me h2{
+    border-right: 3px solid #182e52;
+    color: #182e52;
+    padding-right: 15px;
+}
+.about-me div{
+    margin: 15px;
+}
+.about-me p {
+    display: inline;
+    
+}
