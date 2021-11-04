@@ -156,6 +156,11 @@ header nav ul li a {
     padding-left: 20px;
 }
 
+/* .larger article a {
+    background-image: url("../images/DSCN0898\ \(4\).JPG");
+    height: 400px;
+} */
+
 .smaller article{
     background-color: var(--color-3);
     display: inline-block;
