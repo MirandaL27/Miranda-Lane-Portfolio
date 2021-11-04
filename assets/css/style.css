@@ -56,7 +56,6 @@ header nav ul li a {
 .about-me{
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
 }
 
 .about-me h2{
@@ -69,5 +68,64 @@ header nav ul li a {
 }
 .about-me p {
     display: inline;
-    
 }
+
+.work {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work div{
+    margin: 15px;
+}
+.work h2{
+    border-right: 3px solid #182e52;
+    color: #182e52;
+    padding-right: 23px;
+}
+
+.work-links{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-links div{
+    margin: 15px;
+    background-color: cadetblue;
+}
+
+.larger {
+ width: 85vw;
+ height: 400px;
+ position: relative;
+}
+
+.smaller{
+    width: 40vw;
+    height: 100px;
+    position: relative;
+}
+
+.larger article{
+    background-color: grey;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.smaller article{
+    background-color: grey;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#link5{
+    background-image: url("../images/run-buddy\ screenshot.png");
+    background-position: top;
+    background-size:cover;
+}
+
