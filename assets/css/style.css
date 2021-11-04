@@ -144,6 +144,9 @@ header nav ul li a {
     display: flex;
     justify-content:space-between;
 }
+.contact-me div {
+    margin: 15px;
+}
 .contact-me ul {
     list-style: none;
     display: flex;
