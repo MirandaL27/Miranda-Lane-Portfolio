@@ -52,6 +52,13 @@ header nav ul li a {
     margin: 20px;
 }
 
+header nav ul li a:hover {
+    border: 3px solid var(--color-1);
+    border-radius: 10px;
+    background-color: var(--color-1);
+    color: var(--color-2);
+}
+
 .hero {
     background-image: url("../images/DSCN0898\ \(4\).JPG");
     height: 300px;
