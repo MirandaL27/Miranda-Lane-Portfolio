@@ -57,6 +57,12 @@ header nav ul li a {
     display: flex;
     justify-content: space-between;
 }
+.about-me-header{
+    width: 20%;
+}
+.about-me-p{
+    width:80%;
+}
 
 .about-me h2{
     border-right: 3px solid #182e52;
@@ -79,15 +85,20 @@ header nav ul li a {
     margin: 15px;
 }
 .work h2{
-    border-right: 3px solid #182e52;
+    
     color: #182e52;
     padding-right: 23px;
+}
+.work-header{
+    border-right: 3px solid #182e52;
+    width: 20%;
 }
 
 .work-links{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 80%
 }
 
 .work-links div{
@@ -96,13 +107,13 @@ header nav ul li a {
 }
 
 .larger {
- width: 85vw;
+ width: 100%;
  height: 400px;
- position: relative;
+ position: relative; 
 }
 
 .smaller{
-    width: 40vw;
+    width: 45%;
     height: 100px;
     position: relative;
 }
@@ -129,3 +140,21 @@ header nav ul li a {
     background-size:cover;
 }
 
+.contact-me{
+    display: flex;
+    justify-content:space-between;
+}
+.contact-me ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-me-header{
+    width:20%;
+    border-right: 3px solid #182e52;
+}
+
+.contact-me-list{
+    width: 80%;
+}
