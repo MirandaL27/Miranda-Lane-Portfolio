@@ -231,6 +231,7 @@ header nav ul li a:hover {
 .contact-me ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     align-items:center;
     justify-content: space-between;
 }
@@ -257,5 +258,69 @@ header nav ul li a:hover {
     border-bottom: 1px solid var(--color-2);
     color: var(--color-2);
     font-weight: bold;
+}
+
+@media screen and (max-width: 980px) {
+
+    .contact-me-header h2{
+        font-size: 25px;
+    }
+    .hero img {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-me-header h2{
+        font-size: 20px;
+    }
+    .about-me h2{
+        font-size: 20px;
+    }
+    .work h2{
+        font-size: 20px;
+    }
+    .hero img {
+        width: 35%;
+    }
+    #link1{
+        background-position: left;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .about-me h2{
+        font-size: 20px;
+    }
+    .work h2{
+        font-size: 20px;
+    }
+    .hero img {
+        width: 40%;
+    }
+    .work{
+        flex-direction: column;
+    }
+    .work-header{
+        border-right: none;
+    }
+    .work-links{
+        flex-direction: column;
+    }
+    .smaller{
+        width: 100%;
+    }
+    .contact-me{
+        flex-direction: column;
+    }
+    .about-me{
+        flex-direction: column;
+    }
+    .about-me-header{
+        border-right: none;
+    }
+    .contact-me-header{
+        border-right: none;
+    }
 }
 
