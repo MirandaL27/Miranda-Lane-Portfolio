@@ -75,6 +75,13 @@ header nav ul li a:hover {
     padding-right: 30px;
     color: var(--color-2);
 }
+.hero img{
+    width: 18%;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 15px black;
+}
 
 .about-me{
     display: flex;
@@ -191,8 +198,8 @@ header nav ul li a:hover {
 } 
 
 #link1{
-    background-image: url("../images/DSCN0898\ \(4\).JPG");
-    background-position: center;
+    background-image: url("../images/12-tone_screenshot.png");
+    background-position: top;
     background-size:cover;
 }
 
@@ -203,14 +210,14 @@ header nav ul li a:hover {
 }
 
 #link3{
-    background-image: url("../images/DSCN0898\ \(4\).JPG");
+    background-image: url("../images/Robot-Gladiators_screenshot.png");
     background-position: center;
     background-size:cover;
 }
 
 #link4{
-    background-image: url("../images/DSCN0898\ \(4\).JPG");
-    background-position: center;
+    background-image: url("../images/horiseon_screenshot.png");
+    background-position: top;
     background-size:cover;
 }
 
