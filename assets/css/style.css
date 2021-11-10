@@ -22,7 +22,7 @@ a{
 h2{
     font-size: 35px;
 }
-
+/* header styling start*/
 header{
     background-color: var(--color-2);
     display: flex;
@@ -49,16 +49,19 @@ header nav ul{
 header nav ul li a {
     color: var(--color-3);
     border-bottom: 3px solid var(--color-3);
+    padding: 5px;
     margin: 20px;
 }
 
 header nav ul li a:hover {
-    border: 3px solid var(--color-1);
+    border-bottom: none;
     border-radius: 10px;
     background-color: var(--color-1);
     color: var(--color-2);
 }
+/* header styling start*/
 
+/* hero section styling start*/
 .hero {
     background-image: url("../images/DSCN0898\ \(4\).JPG");
     height: 300px;
@@ -82,7 +85,9 @@ header nav ul li a:hover {
     border-radius: 15px;
     box-shadow: 5px 10px 15px black;
 }
+/* hero section styling start*/
 
+/* About me styling start*/
 .about-me{
     display: flex;
     justify-content: space-between;
@@ -110,7 +115,9 @@ header nav ul li a:hover {
     display: inline;
     color: var(--color-2);
 }
+/* About me styling end*/
 
+/* Work section styling start*/
 .work {
     display: flex;
     justify-content: space-between;
@@ -190,13 +197,7 @@ header nav ul li a:hover {
     width: 100%;
     opacity: 0;
 }
-
-#link5{
-    background-image: url("../images/run-buddy\ screenshot.png");
-    background-position: top;
-    background-size:cover;
-} 
-
+ 
 #link1{
     background-image: url("../images/12-tone_screenshot.png");
     background-position: top;
@@ -221,6 +222,14 @@ header nav ul li a:hover {
     background-size:cover;
 }
 
+#link5{
+    background-image: url("../images/run-buddy\ screenshot.png");
+    background-position: top;
+    background-size:cover;
+}
+/* Work section styling end*/
+
+/* Contact section styling start*/
 .contact-me{
     display: flex;
     justify-content:space-between;
@@ -254,12 +263,26 @@ header nav ul li a:hover {
     margin-right: 50px;
 }
 
-.contact-me ul li, .contact-me ul li a {
-    border-bottom: 1px solid var(--color-2);
+.contact-me ul li {
+    border-bottom: 2px solid var(--color-2);
     color: var(--color-2);
     font-weight: bold;
+    padding: 5px;
+}
+.contact-link:hover{
+    background-color: var(--color-3);
+    border-bottom: none;
+    border-radius: 10px;
+} 
+.contact-link a
+{
+    color: var(--color-2);
 }
 
+/* Contact section styling end*/
+
+
+/* media queries*/
 @media screen and (max-width: 980px) {
 
     .contact-me-header h2{
